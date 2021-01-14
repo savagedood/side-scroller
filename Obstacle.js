@@ -31,5 +31,6 @@ class Special extends Obstacle {
     fill(255, 165, 0);
     ellipse(this.pos.x, this.pos.y, 20, 20)
     
+    
   }
 }
