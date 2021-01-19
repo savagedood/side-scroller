@@ -36,7 +36,7 @@ function Person() {
 
   this.hits = function(Obs) {
     if (Obs.quality === good && (Obs.pos.x >= this.pos.x && Obs.pos.x <= (this.pos.x + 10)) && (Obs.pos.y >= this.pos.y && Obs.pos.y <= (this.pos.y + 10))) {
-      this.score++;
+      this.score+=2;
       Obs.pos.y = -400;
     }
     else if (Obs.quality === star && (Obs.pos.x >= this.pos.x && Obs.pos.x <= (this.pos.x + 10)) && (Obs.pos.y >= this.pos.y && Obs.pos.y <= (this.pos.y + 10))) {
